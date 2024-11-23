@@ -1,1 +1,3 @@
 https://drive.google.com/file/d/19gR5EfwNwzKxT0YIrhzhhIayt9sZ-CTP/view?usp=sharing
+
+The dataset has been preprocessed to handle missing values and prepare it for analysis. Rows with missing values in critical columns were removed, while some missing values in non-critical columns were filled using appropriate imputation techniques. Additionally, categorical columns were transformed into numeric format through indexing. In this process, each unique category within a column was assigned a distinct integer index, ensuring that the assigned indices do not imply any inherent ranking. These preprocessing steps have made the dataset ready for further analysis or model training.
